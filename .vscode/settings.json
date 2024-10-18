@@ -1,0 +1,46 @@
+{
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#124066",
+    "statusBar.noFolderBackground": "#212121",
+    "statusBar.debuggingBackground": "#263238",
+    "editor.selectionBackground": "#292121",
+    "editorLineNumber.foreground": "#09ff01",
+    "editor.selectionHighlightBackground": "#1090a157",
+    "editor.findMatchBackground": "#528815",
+    "editor.findMatchHighlightBackground": "#3404c5b7",
+    "editor.wordHighlightBackground": "#253a1c",
+    "editor.wordHighlightStrongBackground": "#151e7ca8",
+    "editorBracketMatch.border": "#c40909",
+    "terminal.foreground": "#73a085",
+    "terminal.background": "#111111",
+    "list.activeSelectionBackground": "#1d6e0d",
+    "panel.border": "#f80404",
+    "panel.background": "#131111",
+    "panelTitle.activeBorder": "#f1fd00",
+    "tab.activeBackground": "#1f80dbaa",
+    "tab.border": "#0181a1",
+    "panelTitle.activeForeground": "#00b1a8",
+    "panelTitle.inactiveForeground": "#93b1d3",
+    "activityBar.background": "#293104",
+    "titleBar.activeBackground": "#394406",
+    "titleBar.activeForeground": "#F8FDE1"
+  },
+  "emmet.includeLanguages": {
+    "rust": "html",
+    "*.rs": "html"
+  },
+  "tailwindCSS.includeLanguages": {
+    "rust": "html",
+    "*.rs": "html"
+  },
+  "files.associations": {
+    "*.rs": "rust"
+  },
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "on",
+    "strings": true
+  },
+  "css.validate": false,
+  "rust-analyzer.rustfmt.overrideCommand": ["leptosfmt", "--stdin", "--rustfmt"]
+}
